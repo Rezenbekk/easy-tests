@@ -33,7 +33,6 @@ content: contents {
         }
       }
     }
-//TODO: rezenbekk - finish adding answers
        div(class: 'row') {
         if ((question.questionType.id == 1) || (question.questionType.id == 2)) {
           answersList.each { answer ->
